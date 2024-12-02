@@ -1,0 +1,89 @@
+div.onlinshop {
+  width: 100%;
+  border-top: 1px solid rgba(242, 242, 242, 0.8);
+  border-bottom: 1px solid rgba(242, 242, 242, 0.8);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+div.onlinshop > div:nth-of-type(1) {
+  width: 60%;
+  margin-top: 40px;
+  padding-right: 10px;
+}
+div.onlinshop > div:nth-of-type(1) > p:nth-of-type(1) {
+  font-size: 20px;
+  color: #8a8caa;
+}
+div.onlinshop > div:nth-of-type(1) > p:nth-of-type(2) {
+  font-size: 13px;
+  margin-top: 10px;
+  color: #ababc2;
+  line-height: 25px;
+  text-align: justify;
+}
+div.onlinshop > div:nth-of-type(1) > a {
+  color: #19bfd3;
+  font-size: 12px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+div.onlinshop > div:nth-of-type(2) {
+  width: 40%;
+  display: flex;
+  justify-content: end;
+  padding-left: 20px;
+  gap: 5px;
+  margin-top: 30px;
+  align-items: center;
+}
+div.onlinshop > div:nth-of-type(2) > div.pic1, div.pic2, div.pic3 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  text-align: center;
+}
+div.onlinshop > div:nth-of-type(2) > div.pic1 > img {
+  width: 75px;
+  padding-top: 10px;
+}
+
+div.onlinshop > div:nth-of-type(2) > div.pic2 > img {
+  width: 55px;
+  padding-top: 10px;
+}
+
+div.onlinshop > div:nth-of-type(2) > div.pic3 > img {
+  width: 70px;
+  padding-top: 10px;
+}
+@media (max-width: 1024px) {
+  div.onlinshop > div:nth-of-type(1) {
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 0px;
+
+  }
+  div.onlinshop > div:nth-of-type(2) {
+    display: none;
+  }
+  div.onlinshop > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 12px;
+    color: rgb(82, 74, 74);
+
+  }
+  div.onlinshop > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 10px;
+    color: rgb(129, 133, 139);
+  }
+  div.onlinshop > div:nth-of-type(1) > a {
+    color: rgb(161, 163, 168);
+    font-size: 14px;
+    text-decoration: none;
+
+  }
+
+}

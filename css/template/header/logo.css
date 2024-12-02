@@ -1,0 +1,88 @@
+@font-face {
+  font-family: yekan;
+  src: url("https://font.static.useinsider.com/digikala/IRANYekanBold.ttf");
+}
+div.logo {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: sticky;
+  top: 60px;
+}
+div.logo > div.digi {
+  width: 12%;
+  height: inherit;
+  background-color: #ffffff;
+  text-align: center;
+  float: right;
+  vertical-align: top;
+  margin-top: 0;
+}
+
+div.logo > div.digi > svg {
+  margin-top: 22px;
+}
+div.logo > div.search {
+  width: 70%;
+  height: inherit;
+  float: right;
+  vertical-align: top;
+}
+div.logo > div.search > input[type="text"] {
+  width: 50%;
+  height: 40px;
+  background-color: rgba(211, 211, 211, 0.4);
+  margin: 15px;
+  border-radius: 10px;
+  border: unset;
+  outline: unset;
+  font-size: 14px;
+  font-family: yekan;
+  color: #2b2b2b;
+  padding: 4px;
+}
+div.logo > div.search > input[type="text"]::placeholder {
+  color: gray;
+  padding-right: 10px;
+  font-family: yekan;
+  font-size: 12px;
+}
+
+div.logo > div.login {
+  
+}
+div.logo > div.login > a {
+  padding: 0 10px;
+  font-family: yekan;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  border: 1px solid rgba(200, 200, 200, 0.7);
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 15px;
+}
+div.logo > div.login > a > i {
+  display: inline-block;
+  padding: 5px;
+}
+div.logo > div.login > a > p {
+  display: inline-block;
+}
+@media (max-width: 1024px) {
+
+    div.logo > div.digi {
+      display: none;
+    }
+    div.logo > div.login{
+      display: none;
+    }
+    div.logo > div.search{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    div.logo > div.search > input[type="text"] {
+      width: 100%;
+    }
+  }

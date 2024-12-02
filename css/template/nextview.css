@@ -1,0 +1,137 @@
+div.nextview {
+    width: 98%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  div.nextview > div.view1,
+  div.view2,
+  div.view3,
+  div.view4 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+  }
+  div.nextview > div.view2,
+  div.view3,
+  div.view4 {
+    border-right: 1px solid rgba(242, 242, 242, 0.8);
+  }
+  div.nextview > div.view1 > h4,
+  div.view2 > h4,
+  div.view3 > h4,
+  div.view4 > h4 {
+    padding-right: 20px;
+    padding-top: 15px;
+    color: #23254e;
+  }
+  div.nextview > div.view1 > p,
+  div.view2 > p,
+  div.view3 > p,
+  div.view4 > p {
+    padding-right: 20px;
+    font-size: 12px;
+    color: #767790;
+    padding-bottom: 10px;
+  }
+  div.nextview > div.view1 > div.viewb,
+  div.view2 > div.viewb,
+  div.view3 > div.viewb,
+  div.view4 > div.viewb {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  div.viewb > div:nth-of-type(1) {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    border-bottom: 1px solid rgba(242, 242, 242, 0.8);
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  div.viewb > div:nth-of-type(2) {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  div.pic11 {
+    border-left: 1px solid rgba(242, 242, 242, 0.8);
+  }
+  
+  div.pic13 {
+    border-left: 1px solid rgba(242, 242, 242, 0.8);
+  }
+  
+  div.pic11 > img {
+    width: 70%;
+  }
+  div.pic12 > img {
+    width: 70%;
+  }
+  div.pic13 > img {
+    width: 70%;
+  }
+  div.pic14 > img {
+    width: 70%;
+  }
+  
+  div.see {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  div.see > p {
+    font-size: 12px;
+    font-family: yekan;
+    color: #19bfd3;
+  }
+  
+  @media (max-width: 1023px) {
+    div.nextview {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      border: none;
+    }
+    div.nextview > div.view1,
+    div.view2,
+    div.view3,
+    div.view4 {
+      width: 100%;
+    }
+    div.pic11 {
+      width: 50%;
+    }
+  
+    div.pic12 {
+      width: 50%;
+    }
+    div.pic13 {
+      width: 50%;
+    }
+  
+    div.pic14 {
+      width: 50%;
+    }
+    div.see {
+      border-bottom: 1px solid rgba(242, 242, 242, 0.8);
+    }
+    div.nextview > div.view2,
+    div.view3,
+    div.view4 {
+      border-right: none;
+    }
+  }
+  

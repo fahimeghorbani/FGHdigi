@@ -1,0 +1,81 @@
+div.read{
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+div.read>div.headread{
+    margin-bottom: 10px;
+}
+
+div.read>div.headread>h5{
+    
+    float: right;
+    font-size: 16px;
+    margin-top: 30px;
+}
+div.read>div.headread>a{
+  
+    margin-top: 30px;
+    float: left;
+    font-size: 12px;
+    text-decoration: none;
+    color: #19bfd3;
+
+}
+
+div.read>div.imgread{
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+div.read>div.imgread>div.ax1 , div.ax2 , div.ax3 , div.ax4{
+    width: 24%;
+    border-radius: 5%;
+    border: 1px solid lightgray;
+
+}
+div.read>div.imgread>div.ax1>img , div.ax2>img , div.ax3>img , div.ax4>img{
+    
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    box-sizing: border-box;
+}
+div.read>div.imgread>div.ax1>p , div.ax2>p , div.ax3>p , div.ax4>p{
+    color: #080a38;
+    text-align: right;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: -5px;
+}
+
+
+@media (max-width: 1024px) {
+    div.read>div.imgread{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+    }
+    div.read>div.imgread>div.ax1 , div.ax2 , div.ax3 , div.ax4{
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid rgb(238, 233, 233);
+  }
+  div.read>div.imgread>div.ax1>img , div.ax2>img , div.ax3>img , div.ax4>img{
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div.read>div.imgread>div.ax1>p , div.ax2>p , div.ax3>p , div.ax4>p{
+    color: rgb(12, 12, 12);
+    text-align: right;
+    font-size: 11px;
+    font-family: yekan;
+}
+
+
+}

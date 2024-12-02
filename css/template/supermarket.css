@@ -1,0 +1,267 @@
+div.supermarket{
+    width: 97%;
+    height: 109px;
+    background-color: #EEF1F0;
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+div.supermarket>svg{
+    width: inherit;
+    height: inherit;
+    float: left;
+    vertical-align: top;
+}
+
+div.supermarket>img{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    left: calc(100% - 90px);
+    top: calc(50% - 60px / 2);
+}
+div.supermarket>div.suppersvg>svg{
+    position: absolute;
+    left: calc(100% - 380px);
+    top: calc(50% - 35px / 2);
+}
+div.supermarket>p{
+    width: 112px;
+    height: 28px;
+    position: absolute;
+    background-color: #39AE00;
+    color: white;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 20px;
+    left: calc(100% - 510px);
+    top: calc(50% - 33px / 2);
+}
+
+
+div.supermarket>div.market1{
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    position: absolute;
+    left: 600px;
+    top: calc(50% - 72px / 2);
+    border-radius: 50%;
+    
+}
+div.supermarket>div.market1>img{
+    width: 50px;
+    position: absolute;
+    left: calc(50% - 50px / 2);
+    top: calc(50% - 50px / 2);
+}
+div.supermarket>div.market2{
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    position: absolute;
+    left: 518px;
+    top: calc(50% - 72px / 2);
+    border-radius: 50%;
+    
+}
+div.supermarket>div.market2>img{
+    width: 50px;
+    position: absolute;
+    left: calc(50% - 50px / 2);
+    top: calc(50% - 50px / 2);
+}
+div.supermarket>div.market3{
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    position: absolute;
+    left: 436px;
+    top: calc(50% - 72px / 2);
+    border-radius: 50%;
+
+}
+div.supermarket>div.market3>img{
+    width: 50px;
+    position: absolute;
+    left: calc(50% - 50px / 2);
+    top: calc(50% - 50px / 2);
+}
+div.supermarket>div.market4{
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    position: absolute;
+    left: 354px;
+    top: calc(50% - 72px / 2);
+    border-radius: 50%;
+
+}
+div.supermarket>div.market4>img{
+    width: 50px;
+    position: absolute;
+    left: calc(50% - 50px / 2);
+    top: calc(50% - 50px / 2);
+}
+div.supermarket>div.market5{
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    position: absolute;
+    left: 272px;
+    top: calc(50% - 72px / 2);
+    border-radius: 50%;
+
+}
+div.supermarket>div.market5>img{
+    width: 50px;
+    position: absolute;
+    left: calc(50% - 50px / 2);
+    top: calc(50% - 50px / 2);
+}
+div.supermarket>div.market6{
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    position: absolute;
+    left: 190px;
+    top: calc(50% - 72px / 2);
+    border-radius: 50%;
+
+}
+div.supermarket>div.market6>img{
+    width: 50px;
+    position:absolute;
+    left: calc(50% - 50px / 2);
+    top: calc(50% - 50px / 2);
+}
+div.supermarket>div.kala{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    left: 30px;
+    top: calc(50% - 50px / 2);
+    border-radius: 50px;
+ 
+}
+div.supermarket>div.kala>p{
+    text-align: center;
+    color: #39ae00;
+    line-height: 50px;
+}
+div.supermarket>div.off1{
+    width: 35px;
+    height: 20px;
+    background-color: #EF394E;
+    border-radius: 10px;
+    position: absolute;
+    left: 643px;
+    top: 74px;
+}
+div.supermarket>div.off1>p{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: calc(50% - 20px / 2);
+    top: calc(50% - 16px / 2);
+    font-weight: bold;
+}
+div.supermarket>div.off2{
+    width: 35px;
+    height: 20px;
+    background-color: #EF394E;
+    border-radius: 10px;
+    position: absolute;
+    left: 560px;
+    top: 74px;
+}
+div.supermarket>div.off2>p{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: calc(50% - 20px / 2);
+    top: calc(50% - 16px / 2);
+    font-weight: bold;
+
+}
+div.supermarket>div.off3{
+    width: 35px;
+    height: 20px;
+    background-color: #EF394E;
+    border-radius: 10px;
+    position: absolute;
+    left: 477px;
+    top: 74px;
+}
+div.supermarket>div.off3>p{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: calc(50% - 20px / 2);
+    top: calc(50% - 16px / 2);
+    font-weight: bold;
+
+}
+div.supermarket>div.off4{
+    width: 35px;
+    height: 20px;
+    background-color: #EF394E;
+    border-radius: 10px;
+    position: absolute;
+    left: 394px;
+    top: 74px;
+}
+div.supermarket>div.off4>p{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: calc(50% - 20px / 2);
+    top: calc(50% - 16px / 2);
+    font-weight: bold;
+
+}
+div.supermarket>div.off5{
+    width: 35px;
+    height: 20px;
+    background-color: #EF394E;
+    border-radius: 10px;
+    position: absolute;
+    left: 311px;
+    top: 74px;
+}
+div.supermarket>div.off5>p{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: calc(50% - 20px / 2);
+    top: calc(50% - 16px / 2);
+    font-weight: bold;
+
+}
+div.supermarket>div.off6{
+    width: 35px;
+    height: 20px;
+    background-color: #EF394E;
+    border-radius: 10px;
+    position: absolute;
+    left: 228px;
+    top: 74px;
+}
+div.supermarket>div.off6>p{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: calc(50% - 20px / 2);
+    top: calc(50% - 16px / 2);
+    font-weight: bold;
+
+}
+@media (max-width: 1250px) {
+
+    div.supermarket {
+      display: none;
+
+  }
+}

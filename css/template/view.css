@@ -1,0 +1,136 @@
+div.view {
+  width: 98%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+div.view > div.view11,
+div.view12,
+div.view13,
+div.view14 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+div.view > div.view12,
+div.view13,
+div.view14 {
+  border-right: 1px solid rgba(242, 242, 242, 0.8);
+}
+div.view > div.view11 > h4,
+div.view12 > h4,
+div.view13 > h4,
+div.view14 > h4 {
+  padding-right: 20px;
+  padding-top: 15px;
+  color: #23254e;
+}
+div.view > div.view11 > p,
+div.view12 > p,
+div.view13 > p,
+div.view14 > p {
+  padding-right: 20px;
+  font-size: 12px;
+  color: #767790;
+  padding-bottom: 10px;
+}
+div.view > div.view11 > div.viewa,
+div.view12 > div.viewa,
+div.view13 > div.viewa,
+div.view14 > div.viewa {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0 auto;
+}
+div.viewa > div:nth-of-type(1) {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  border-bottom: 1px solid rgba(242, 242, 242, 0.8);
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+div.viewa > div:nth-of-type(2) {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  padding-top: 10px;
+  text-align: center;
+}
+
+div.img1 {
+  border-left: 1px solid rgba(242, 242, 242, 0.8);
+}
+
+div.img3 {
+  border-left: 1px solid rgba(242, 242, 242, 0.8);
+}
+
+div.img1 > img {
+  width: 70%;
+}
+div.img2 > img {
+  width: 70%;
+}
+div.img3 > img {
+  width: 70%;
+}
+div.img4 > img {
+  width: 70%;
+}
+
+div.see {
+  text-align: center;
+  padding-bottom: 10px;
+}
+div.see > p {
+  font-size: 12px;
+  font-family: yekan;
+  color: #19bfd3;
+}
+
+@media (max-width: 1023px) {
+  div.view {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  div.view > div.view11,
+  div.view12,
+  div.view13,
+  div.view14 {
+    width: 100%;
+  }
+  div.img1 {
+    width: 50%;
+  }
+
+  div.img2 {
+    width: 50%;
+  }
+  div.img3 {
+    width: 50%;
+  }
+
+  div.img4 {
+    width: 50%;
+  }
+  div.see {
+    border-bottom: 1px solid rgba(242, 242, 242, 0.8);
+  }
+  div.view > div.view12,
+  div.view13,
+  div.view14 {
+    border-right: none;
+  }
+}

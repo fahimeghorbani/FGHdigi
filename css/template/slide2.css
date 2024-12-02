@@ -1,0 +1,165 @@
+div.slide2 {
+  width: 98%;
+  height: 288px;
+  background-color: #ef3b50;
+  margin: 10px auto;
+  border-radius: 15px;
+  position: relative;
+  overflow-x: hidden;
+}
+div.slide3 {
+  display: none;
+}
+div.slide2 > svg:nth-of-type(1) {
+  width: 92px;
+  height: 77px;
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+div.slide2 > svg:nth-of-type(2) {
+  width: 145px;
+  height: 115px;
+  position: absolute;
+  right: 25px;
+  top: 108px;
+}
+div.slide2 > p {
+  position: absolute;
+  right: 40px;
+  top: 238px;
+  color: white;
+}
+
+div.slide2 > div.student {
+  width: 85%;
+  height: 100%;
+  position: absolute;
+  right: 184px;
+}
+
+div.slide2 > div.student > div.swiper-wrapper > div.swiper-slide {
+width: 100%;
+height: 250px;
+  text-align: center;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 5px;
+}
+div.slide2 > div.student > div.swiper-wrapper :first-of-type {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+div.slide2 > div.student > div.swiper-wrapper :last-of-type {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+div.slide2 > div.student > div.swiper-wrapper > div.swiper-slide > img {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  margin-top: 25px;
+}
+p.txt{
+  color: rgb(98, 102, 109);
+  font-size: 12px;
+  text-align: right;
+}
+div.txt2{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+p.first {
+  width: 34px;
+  height: 20px;
+  background-color: #ef4056;
+  color: white;
+  font-size: 12px;
+
+  border-radius: 10px;
+}
+p.second {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  color: #3f4064;
+
+}
+p.third {
+  width: 100%;
+  color: #c3c3ce;
+  font-size: 12px;
+  margin-top: -10px;
+  text-align: left;
+  text-decoration: line-through;
+
+}
+div.slide2 > div.student > div.swiper-button-next,
+div.swiper-button-prev {
+  color: #3f4064;
+  font-size: 10px;
+}
+@media (max-width: 1024px) {
+  div.slide2 {
+    display: none;
+  }
+  div.slide3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    background-color: #ef3b50;
+    overflow-x: hidden;
+  }
+  div.s3header{
+    display: flex;
+    justify-content: space-between;
+  }
+  div.slide3 >div.s3header> p {
+    
+    color: white;
+    font-size: 14px;
+   
+  }
+  div.slide3 > div.swiper-wrapper {
+    width: 100%;
+    display: flex;
+  }
+  div.slide3 > div.swiper-wrapper > div.pakage {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    margin-left: 2px;
+    padding-right: 2px;
+  }
+
+  div.slide3 div.swiper-wrapper img {
+    width: 120px;
+  }
+  div.pakage >p.first1 {
+    width: 34px;
+    height: 20px;
+    background-color: #ef4056;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  div.pakage p.second1 {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #3f4064;
+  }
+  div.pakage p.third1 {
+    color: #c3c3ce;
+    font-size: 12px;
+    text-decoration: line-through;
+
+  }
+}
+

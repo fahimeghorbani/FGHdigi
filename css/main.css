@@ -1,0 +1,46 @@
+@import url(./template/setting.css);
+@import url(./template/header.css);
+@import url(./template/slider.css);
+@import url(./template/services.css);
+@import url(./template/fourpictures.css);
+@import url(./template/grouping.css);
+@import url(./template/proposal.css);
+@import url(./template/digiclub.css);
+@import url(./template/read.css);
+@import url(./template/twopicture.css);
+@import url(./template/supermarket.css);
+@import url(./template/digiplus.css);
+@import url(./template/twopicture2.css);
+@import url(./template/twopicture2.css);
+@import url(./template/slide2.css);
+@import url(./template/app.css);
+@import url(./template/digi.css);
+@import url(./template/support.css);
+@import url(./template/view.css);
+@import url(./template/nextview.css);
+@import url(./template/single.css);
+@import url(./template/onsale.css);
+@import url(./template/onlinshop.css);
+@import url(./template/onlinshop.css);
+@import url(./template/comment.css);
+@import url(./template/headphone.css);
+@import url(./template/brand.css);
+@import url(./template/bestseller.css);
+
+
+body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: Yekan;
+    src: url('https://font.static.useinsider.com/digikala/IRANYekanBold.ttf');
+  }
+
+
+
+
+
+
+
+
+

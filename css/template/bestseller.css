@@ -1,0 +1,88 @@
+@font-face {
+    font-family: yekani;
+    src: url('https://font.static.useinsider.com/digikala/IRANYekanBold.ttf');
+}
+div.bestseller{
+    width: 98%;
+    height: 404.09px;
+    border: 1px solid lightgray;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+div.bestseller>div.bestview{
+    width: 100%;
+    height: 44.09px;
+    margin-top: 10px;
+    text-align: center;
+}
+div.bestseller>div.bestview>a{
+    font-size: 21px;
+    font-family: yekani;
+    display: inline-block;
+    line-height: 44.09px;
+    margin-right: 60px;
+    text-decoration: none;
+    color: #080a38;
+}
+
+div.bestseller>div.bestview>a>i{
+  color: #f9a825;
+  margin-left: 10px;
+}
+
+div.bestseller>div.bestview>p{
+    font-size: 14px;
+    font-family: yekani;
+    float: left; 
+    margin-left: 15px;
+    line-height: 44.09px;
+    color: #19bfd3;
+
+}
+div.bestseller>div.bestsell {
+    width: 100%;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  
+  div.bestseller>div.bestsell>div.swiper-wrapper>div.swiper-slide {
+    width: 290.5px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc(100% / 3) !important;
+    justify-content: center;
+    display: inline-block;
+  }
+  
+  div.bestseller>div.bestsell>div.swiper-wrapper>div.swiper-slide > a{
+    text-decoration: none;
+    text-align: center;
+    line-height: 106px;
+    float: right;
+    border-bottom: 1px solid rgba(242, 242, 242, 0.8) ;       
+  }
+  div.bestseller>div.bestsell>div.swiper-wrapper>div.swiper-slide > a > img{
+    width: 86px;
+    height: 86px;
+    vertical-align: middle;
+  }
+  div.bestseller>div.bestsell>div.swiper-wrapper>div.swiper-slide > a >h2{
+    display: inline;
+    line-height: 86px;
+    vertical-align: middle;
+    color: #19bfd3;;
+  }
+  div.bestseller>div.bestsell>div.swiper-wrapper>div.swiper-slide > a > p{
+    display: inline;
+    font-size: 12px;
+    line-height: 86px;
+    vertical-align: middle;
+    color: #3f4064;
+    padding: 5px;
+    font-family: yekani;
+  }

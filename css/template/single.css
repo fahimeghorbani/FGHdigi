@@ -1,0 +1,10 @@
+div.single{
+    width: 95%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.single> img{
+    width: 100%;
+    border-radius: 20px;
+}

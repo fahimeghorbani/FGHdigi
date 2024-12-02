@@ -1,0 +1,30 @@
+div.twopicture{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+
+}
+
+div.twopicture>img{
+    width: 49%;
+    border-radius: 15px;
+    
+}
+
+@media (max-width: 1024px) {
+    div.twopicture{   
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    div.twopicture>img{
+        width: 100%;
+        border-radius: 15px;
+        margin-bottom: 5px;
+        
+    }
+  }

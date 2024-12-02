@@ -1,0 +1,56 @@
+div.app{
+    width: 98%;
+    height: 75px;
+    background-color: #3C4B6D;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 10px;
+}
+div.app>div.headapp{
+    width: 350px;
+    height: 50px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+div.app>div.headapp>img{
+    width: 40px;
+    float: right;
+    margin-top: 5px;
+}
+div.app>div.headapp>h4{
+    width: 270px;
+    height: 50px;
+    margin-top: 12px;
+    display: inline-block;
+    margin-right: -10px;
+    color: white;
+}
+div.app>div.imgapp{
+    width: 616px;
+    height: 43px;
+    float: left;
+    margin-top: -46px;
+    margin-left: 64px;
+}
+div.app>div.imgapp>svg{
+    width: 142px;
+    height: 41px;
+    
+}
+div.app>div.svg4>svg{
+    width: 45px;
+    height: 45px;
+    background-color: #FFFFFF;
+    float: left;
+    margin-top: -46px;
+    margin-left: 18px;
+    border-radius: 5px;
+
+}
+@media (max-width: 1024px) {
+    div.app{
+      display: none;
+    }
+  }
